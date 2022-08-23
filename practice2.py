@@ -35,13 +35,14 @@
 # b=a*a
 # print(b)
 
-a= 3
-n=3
+#method 2
+a=int(input("Enter the value: "))
+n=0
+sum=0
+while a>n:
+    
+    sum= sum + a
+    n= n + 1
 
-
-sum1=0
-while a<=n:
-    sum1+=a
-
-print(sum1)
+print(sum)
 
