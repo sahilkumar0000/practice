@@ -35,5 +35,5 @@
 
 #Question 5
 x=(1,0,2,0,0,0,2,3)
-print(x.count(0))
+print(x.count(0)) 
 
