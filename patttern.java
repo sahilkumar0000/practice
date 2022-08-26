@@ -1,4 +1,3 @@
-import javax.print.event.PrintJobListener;
 
 class patttern{
 public static void main(String[]args){
