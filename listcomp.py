@@ -18,6 +18,5 @@ while i<x:
         while k<z:
                 a.append(z)
                 print(a)
-                    
                 k+=1
                     
