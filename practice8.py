@@ -9,9 +9,10 @@
 # maximize(2,3,4)
 
 # Question 2
-def celsius(c):
+# def celsius(c):
 
-    f=((c*9)/5)+32
-    return f
+#     f=((c*9)/5)+32
+#     return f
 
-print(celsius(45))
+# print(celsius(45))
+

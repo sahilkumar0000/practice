@@ -32,5 +32,3 @@
 #     print(f"{i}"*j)
 #     j-=1
 
-
-# question 10
