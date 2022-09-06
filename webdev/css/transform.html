@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100vw;
+            background-color: rgb(97, 94, 94);
+        }
+
+        #img2 {
+            transform: rotatez(180deg)
+        }
+
+        .img {
+            display: inline;
+            font-size: 70px;
+            text-align: center;
+            font-weight: bold;
+
+
+        }
+
+        #img3 {
+            transform: rotatey(180deg)
+        }
+
+        #img4 {
+            transform: rotatex(180deg)
+        }
+
+        hr {
+            height: 10px;
+            background-color: black;
+            margin:20px;
+        }
+
+        h1 {
+            font-size: 100px;
+            text-align: center;
+        }
+        .grid{
+            display:grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+        }
+        .imgx{
+            border:5px double black;
+            padding:100px;
+            background-color: rgb(161, 169, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Rotating A image in XYZ Axis</h1>
+    <hr>
+    <div class="img">
+        <div class="grid">
+            <img src="/html/img/l2.png" id="img1" class="imgx">
+            <img src="/html/img/l2.png" id="img2" class="imgx">
+        </div>
+        <li>Z AXIS IN 180 DEGREE</li>
+        <hr>
+        <div class="grid">
+            <img src="/html/img/l2.png" id="img1" class="imgx">
+            <img src="/html/img/l2.png" id="img3" class="imgx">
+        </div>
+        <li>Y AXIS IN 180 DEGREE</li>
+        <hr>
+
+        <div class="grid">
+            <img src="/html/img/l2.png" id="img1" class="imgx">
+            <img src="/html/img/l2.png" id="img4" class="imgx">
+        </div>
+        <li>X AXIS IN 180 DEGREE</li>
+        <hr>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

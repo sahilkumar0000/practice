@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=w, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 5px;
+            /* height: 98vh; */
+            display: grid;
+            background-color: rgb(104, 139, 148);
+            border: 2px solid rgb(255, 0, 187);
+            color: red;
+            grid-gap: 10px;
+            /* grid-template-columns:32vw 32vw 32vw; */
+            grid-template-columns: 24% 24% 24% 24%;
+            grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+            /* justify-content: center; */
+            align-content: center;
+
+        }
+
+        .item {
+            border: 2px solid red;
+            background-color: antiquewhite;
+            color: blue;
+        }
+
+        .submit {
+            height: 10vh;
+            width: 20vw;
+            position:absolute;
+            top:60%;
+            left:40%;
+
+        }
+
+
+
+        #item1 {
+            overflow: scroll;
+            overflow-x: hidden;
+
+        }
+        .text{
+            float:right;    
+        }
+        .head {
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" id="item1">
+            
+            <h1 class="head">Question 1</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis magnam impedit tempora consectetur distinctio iusto aut temporibus, amet dolores nesciunt repudiandae quidem fugiat autem beatae officiis. Minima odio voluptate libero itaque, veritatis tempore doloribus, nisi magni ullam perspiciatis non debitis saepe eos! Tenetur maxime porro recusandae eveniet, laudantium ab dignissimos incidunt sunt ea sapiente animi corporis atque dolorum ipsum est officia unde culpa rerum. Quam tenetur sit quas adipisci cum nisi amet commodi eum ad consequatur, perspiciatis rerum magni tempore dicta in id magnam facere! Deserunt iure perspiciatis, impedit consequatur hic et fugiat doloremque magnam, obcaecati eum consectetur cupiditate tempore, est necessitatibus sint atque qui numquam vel aspernatur labore totam modi id optio? Ut saepe veniam, hic laudantium minima eaque commodi at totam eveniet pariatur laborum ad quo repudiandae? Id, ea in animi provident facilis necessitatibus recusandae, culpa nam fugiat minus sint nobis vel magni quasi eligendi sapiente ex illum ab veniam dolor sit! Repellat ex quo rem atque voluptas nobis illo repudiandae magni cum. Optio facere sed est ab voluptatem excepturi aut atque neque, minus enim nihil, reiciendis nostrum nulla iure odio laudantium. Tempore, adipisci numquam maiores quam reiciendis asperiores aliquid unde ex, qui corrupti hic fugit blanditiis soluta voluptatum nisi, est odio dicta similique? Ut sit error assumenda iure architecto maxime laudantium perspiciatis tempore fuga sint! Maxime quidem accusantium sint nihil quisquam. Soluta expedita perspiciatis temporibus ut aperiam. Est recusandae, quibusdam neque praesentium dolores accusamus eius tenetur, eligendi perspiciatis, hic ut veritatis ad animi at quo nostrum excepturi voluptatem consequuntur dicta fugit mollitia aspernatur. Cum et expedita a in, quae minima corporis pariatur blanditiis quia vitae, suscipit voluptate commodi optio doloribus, eveniet quis totam. Quia ratione ad reiciendis atque, eos blanditiis. Velit architecto eveniet repudiandae laboriosam cum, eos, saepe omnis neque veritatis nulla aperiam, numquam excepturi quod eaque.
+            <input type="text" placeholder="height" class="text">
+        </div>
+        <div class="item">
+            <h1>Question 2</h1>
+            <p>what is your weight</p>
+        </div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div>
+        <input type="button" value="Submit" class="submit">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

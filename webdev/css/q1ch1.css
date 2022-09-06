@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    
+    color:rgb(206, 198, 37);
+    background: green;
+    background-color: rgb(125, 14, 129);
+    height: 70px;
+}
+.red{
+    background:rgb(236, 230, 155) url(/html/img/l2.png) no-repeat center scroll;
+    height:1000px;
+}
+body{
+    /* background-image:url(/html/img/l2.png);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-attachment: fixed; */
+   
+    
+    opacity: 1;
+}
+p{
+    
+    border-style: double;
+    height:700vh;
+    width:300px;
+    background:rgb(236, 230, 155) url(/html/img/l2.png) no-repeat local ;
+}
