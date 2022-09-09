@@ -16,3 +16,14 @@
 
 # print(celsius(45))
 
+# question 3
+sum=0
+def natural(n):
+    while n>0:
+        sum=n+natural(n-1)
+
+        
+    return sum
+
+print(natural(3))
+
