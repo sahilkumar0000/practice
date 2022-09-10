@@ -102,10 +102,31 @@
 
 # Question 9 Connected Inverted Pyramid Pattern of Numbers
 
-rows =6
-for i in range(0,rows):
-    for j in range(rows-1,i,-1):
-        print(j,end=" ")
-    for k in range(i+1,rows):
-        print(k,end=" ")
+# rows =6
+# for i in range(0,rows):
+#     for j in range(rows-1,i,-1):
+#         print(j,end=" ")
+#     for k in range(i+1,rows):
+#         print(k,end=" ")
+#     print("")
+
+# Question 10 Even Number Pyramid Pattern
+
+rows=5
+last_even=rows*2
+even_num=last_even
+for i in range(1,rows+1):
+    even_num=last_even                #2
+    for j in range(i):
+        print(even_num,end=" ")
+        even_num-=2
+    print("")
+
+rows=5
+b=rows*2
+for i in range(rows+1):
+    b=rows*2
+    for j in range(i):               #1
+        print(b,end=" ")
+        b-=2
     print("")
