@@ -76,15 +76,26 @@
 #     stop += row
 #     currentNumber = stop
 
-start =1 
-stop =2
-currentnum=stop
-for i in range(2,6):
-    for j in range(start,stop):
-        currentnum-=1
-        print(currentnum,end="")
+# start =1 
+# stop =2
+# currentnum=stop
+# for i in range(2,6):
+#     for j in range(start,stop):
+#         currentnum-=1
+#         print(currentnum,end="")
+#     print("")
+#     start=stop
+#     stop+=i
+#     currentnum=stop
+
+# Question 8 Unique Pyramid Pattern of Digits
+
+
+rows=6
+for i in range(1,rows+1):
+    for j in range(1,i-1):
+        print(j, end="") 
+    for j in range(i-1,0,-1):
+        print(j,end="")
+
     print("")
-    start=stop
-    stop+=i
-    currentnum=stop
-    

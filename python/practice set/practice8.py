@@ -16,14 +16,28 @@
 
 # print(celsius(45))
 
-# question 3
-sum=0
-def natural(n):
-    while n>0:
-        sum=n+natural(n-1)
+# question 4
+# def sum_nat(n):
+#     if n<0:
+#         return "Enter a Positive number"
+#     elif n<=1:
+#         return n
+#     else:
+#         return n+sum_nat(n-1)
+# print(sum_nat(5))
 
-        
-    return sum
+#question 5
+# def pattern(n):
+#     for i in range(n,0,-1):
+#         for j in range(0,i):
+#             print("*",end="")
+#         print("")
+# pattern(4)
 
-print(natural(3))
+#question 6
+# def conv(inch):
+#     cm = inch*2.54
+#     return cm 
+# print(conv(4))
 
+#question 7
