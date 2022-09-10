@@ -132,19 +132,37 @@
 #     print("")
 
 #Question 11 Pyramid of Horizontal Tables
-rows=6
-x=0
-y=0
-for i in range(rows+1):
-    x=0 
-    for j in range(i+1):
-        print(x*y,end=" ")        #1
-        x=x+1
-    y+=1
+# rows=6
+# x=0
+# y=0
+# for i in range(rows+1):
+#     x=0 
+#     for j in range(i+1):
+#         print(x*y,end=" ")        #1
+#         x=x+1
+#     y+=1
+#     print("")
+
+# rows=6
+# for i in range(0,rows):
+#     for j in range(0,i+1    ):    #2
+#         print(i*j,end=" ")
+#     print("")
+
+# Question 12 Pyramid Pattern of Alternate Numbers
+rows =6
+for i in range(rows):
+    for j in range(0,i+1):                 
+        if j/2!=0:                    #1
+            print(i*2-1,end=" ")
     print("")
 
 rows=6
-for i in range(0,rows):
-    for j in range(0,i+1    ):    #2
-        print(i*j,end=" ")
+i=1
+while i<=rows:
+    j=1
+    while j<=i:
+        print(i*2-1,end=" ")          #2
+        j+=1
+    i=i+1
     print("")
