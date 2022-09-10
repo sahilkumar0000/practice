@@ -112,21 +112,39 @@
 
 # Question 10 Even Number Pyramid Pattern
 
-rows=5
-last_even=rows*2
-even_num=last_even
-for i in range(1,rows+1):
-    even_num=last_even                #2
-    for j in range(i):
-        print(even_num,end=" ")
-        even_num-=2
+# rows=5
+# last_even=rows*2
+# even_num=last_even
+# for i in range(1,rows+1):
+#     even_num=last_even                #2
+#     for j in range(i):
+#         print(even_num,end=" ")
+#         even_num-=2
+#     print("")
+
+# rows=5
+# b=rows*2
+# for i in range(rows+1):
+#     b=rows*2
+#     for j in range(i):               #1
+#         print(b,end=" ")
+#         b-=2
+#     print("")
+
+#Question 11 Pyramid of Horizontal Tables
+rows=6
+x=0
+y=0
+for i in range(rows+1):
+    x=0 
+    for j in range(i+1):
+        print(x*y,end=" ")        #1
+        x=x+1
+    y+=1
     print("")
 
-rows=5
-b=rows*2
-for i in range(rows+1):
-    b=rows*2
-    for j in range(i):               #1
-        print(b,end=" ")
-        b-=2
+rows=6
+for i in range(0,rows):
+    for j in range(0,i+1    ):    #2
+        print(i*j,end=" ")
     print("")
