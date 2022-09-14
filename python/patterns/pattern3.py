@@ -150,19 +150,48 @@
 #     print("")
 
 # Question 12 Pyramid Pattern of Alternate Numbers
-rows =6
-for i in range(rows):
-    for j in range(0,i+1):                 
-        if j/2!=0:                    #1
-            print(i*2-1,end=" ")
-    print("")
+# rows =6
+# for i in range(rows):
+#     for j in range(0,i+1):                 
+#         if j/2!=0:                    #1
+#             print(i*2-1,end=" ")
+#     print("")
 
-rows=6
-i=1
-while i<=rows:
-    j=1
-    while j<=i:
-        print(i*2-1,end=" ")          #2
-        j+=1
-    i=i+1
+# rows=6
+# i=1
+# while i<=rows:
+#     j=1
+#     while j<=i:
+#         print(i*2-1,end=" ")          #2
+#         j+=1
+#     i=i+1
+#     print("")
+
+#question 13
+# rows=6
+# for i in range(1,rows):
+#     for j in range(rows,i,-1):
+#         print(" ",end="")             #1
+#     for j in range(1,i+1):
+#         print(j, end="")
+#     print(" ")
+# rows=6
+# for i in range(0,rows):
+#     num=1
+#     for j in range(rows,0,-1):
+#         if j>i:
+#             print(" ",end="")
+#         else:
+#             print(num,end="")
+#             num+=1
+#     print(" ")
+
+# Question 14 Equilateral Triangle with Stars (Asterisk Symbol)
+rows = 7
+f=int(rows)
+for i in range(rows):
+
+    for j in range(f,0,-1):
+        print(" ",end=" ")
+    for j in range()
     print("")
