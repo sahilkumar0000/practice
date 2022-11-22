@@ -1,3 +1,4 @@
+import java.util.*;
 class theunlimitedsquare
 {
 	public static void main(String[] args) {
