@@ -4,8 +4,6 @@ public class arryexception {
             int[] arr = new int[5];
             arr[5]=30/0;
             System.out.println(arr);
-
-
        }
        catch(ArithmeticException e){
         System.out.println(e);
@@ -19,4 +17,4 @@ public class arryexception {
        System.out.println("sahuk");
     }
     
-}
+} 
